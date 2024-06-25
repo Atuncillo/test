@@ -1,0 +1,10 @@
+<Configuration>
+    <Add OfficeClientEdition="64" Channel="Monthly">
+        <Product ID="O365ProPlusRetail">
+            <Language ID="es-mx" />
+            <ExcludeApp ID="Lync" />
+        </Product>
+    </Add>
+    <Display Level="None" AcceptEULA="TRUE" />
+    <Property Name="AUTOACTIVATE" Value="1" />
+</Configuration>
